@@ -1,13 +1,13 @@
 # luci-app-jd-dailybonus
 Luci for JD dailybonus Script for Openwrt  
-一个运行在openwrt下的京东签到插件。
-
+一个运行在openwrt下的签到插件。
+df 
 ### Update Log 2020-12-30  
 
 #### Updates
 
 - UPD: 取消已经无法使用的crx工具，请使用压缩包手动安装扩展。
-- UPD: 修改了获取京东cookie的插件，只获取必要的cookie信息，信息更加简短。
+- UPD: 修改了获取的插件，只获取必要的信息，信息更加简短。
 - UPD: 后台更新取消了版本大小检测，每次更新将会直接拉取源脚本。
 - UPD: 前端手动更新脚本，点击后如果确认有新版本将自动更新到新版本。
 
@@ -16,7 +16,7 @@ Luci for JD dailybonus Script for Openwrt
 
 ### 介绍
 
-使用NobyDa “京东多合一签到脚本”为基础，移植到openwrt实现。  
+使用NobyDa “多合一签到脚本”为基础，移植到openwrt实现。  
 
 ### 如何使用
 
@@ -24,7 +24,7 @@ Luci for JD dailybonus Script for Openwrt
 ```
 cd lede/package/lean/  
 
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  
+git clone https://.com/jerrykuku/luci-app-jd-dailybonus.git  
 
 make menuconfig #Check LUCI->Applications->luci-app-jd-dailybonus
 
@@ -35,7 +35,7 @@ make -j1 V=s #编译固件
 
 ### 如何安装
 
-🛑 [点击这里去下载最新的版本](https://github.com/jerrykuku/luci-app-jd-dailybonus/releases)
+🛑 [点击这里去下载最新的版本](https://.com/jerrykuku/luci-app-jd-dailybonus/releases)
 
 ⚠️安装步骤[重要]⚠️  
 
@@ -48,10 +48,10 @@ make -j1 V=s #编译固件
 
 ### 感谢
 
-感谢[NobyDa](https://github.com/NobyDa) 的脚本。  
+感谢[NobyDa](https://.com/NobyDa) 的脚本。  
 
 ### 我的其它项目
-Argon theme ：https://github.com/jerrykuku/luci-theme-argon  
-Argon theme config  ：https://github.com/jerrykuku/luci-app-argon-config
-Hello World ：https://github.com/jerrykuku/luci-app-vssr  
-openwrt-nanopi-r1s-h5 ： https://github.com/jerrykuku/openwrt-nanopi-r1s-h5  
+Argon theme ：https://.com/jerrykuku/luci-theme-argon  
+Argon theme config  ：https://.com/jerrykuku/luci-app-argon-config
+Hello World ：https://.com/jerrykuku/luci-app-vssr  
+openwrt-nanopi-r1s-h5 ： https://.com/jerrykuku/openwrt-nanopi-r1s-h5  
